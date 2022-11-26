@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #444;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5; }
+    body#bg-img {
+      background: url(img/bg1.jpg);
+      background-attachment: fixed;
+      background-size: cover; } 
+/* logo */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(124 120 120 / 30%);
+    height: 4rem;
+    border-bottom: rgba(209, 204, 204, 0.6) solid 1px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+}
+
+.logo span{
+    color: #F15D43;
+}
+
+nav{
+    display: flex;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+    margin: 0rem 4rem;
+    
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    margin: 0rem 1rem;
+}
+
+.sign-up{
+    /* border: 2px solid #F15D43; */
+    padding: 0rem;
+}
+
+.sign-up a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid #F15D43;
+    padding: 11px;
+}
+
+.nav-item a:hover{
+    color: #F15D43 ;
+}
+
+.sign-up a:hover{
+    background: linear-gradient(233deg, #F9873C 0%, #EC3838 100%);
+    border-color: white;
+}
+
+.upper-sec{
+    height: 60%;
+    padding: 10rem 15rem;
+    background: rgb(57 55 55 / 40%);
+}
+
+.upper-sec h5{
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #ce5539;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.upper-sec h1{
+    font-size: 440%;
+    font-family: 'Sono', sans-serif;
+}
+
+.upper-sec p{
+    font-family: 'Kalam', cursive;
+    width: 512px;
+    font-size: 17px;
+    padding-bottom: 32px
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 13px 45px;
+    margin-top: 7px;
+    font-size: larger;
+    font-family: 'Caveat', cursive;
+    background: linear-gradient(233deg, #F9873C 0%, #EC3838 100%);
+}
+
+.button:hover{
+    background: rgb(124 120 120 / 30%);
+    border-color: white;
+}
+
+.lower-sec{
+    margin-top: 48px;
+    background: rgba(255, 255, 255, 0.8);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video{
+    width: 411px;
+    border-radius: 20px;
+    filter: drop-shadow(9px -3px 23px #000);
+}
+
+.about{
+    width: 650px;
+    margin-left: 212px;
+}
+.about h2{
+    color: #000;
+    font-size: 40px;
+
+}
+
+.about p{
+    color: #000;
+    font-family: 'Kalam', cursive;
+    margin-bottom: 25px;
+}
+
+.about .button:hover{
+    background: rgb(124 120 120 / 30%);
+    border-color: black;
+    color: #000;
+}
+
+
